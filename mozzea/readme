@@ -1,0 +1,54 @@
+Sure! Here's a sample `README.md` file for your Bottleshop E-commerce Django app. Feel free to customize it based on your project details.
+
+---
+
+ Bottleshop E-commerce App
+
+Welcome to the mozzify E-commerce application, built with Django. This application allows users to browse, search, and purchase bottles of beverages, including wines, spirits, and other drinks.
+
+Features
+
+- **User Authentication**: Users can register, log in, and manage their profiles.
+- **Product Listings**: Display a variety of beverages with detailed product descriptions.
+- **Search Functionality**: Users can search for specific products by name, category, or brand.
+- **Shopping Cart**: Add items to the shopping cart and update quantities.
+- **Checkout**: Secure checkout process using payment gateways (Stripe, PayPal, etc.).
+- **Order History**: Users can view their previous orders and order status.
+- **Admin Panel**: Manage products, categories, and orders through Django's admin panel.
+
+
+Project Structure
+
+```
+mozzea/
+│
+├── manage.py              # Django project management script
+├── requirements.txt       # Project dependencies
+├── README.md              # Project documentation
+│
+├── mozzea/            # Project settings and configurations
+│   ├── settings.py
+│   ├── urls.py
+│   ├── wsgi.py
+│   └── ...
+│
+├── products/              # Products app (for managing products and categories)
+│   ├── models.py
+│   ├── views.py
+│   ├── templates/
+│   └── ...
+│
+├── cart/                  # Cart app (for managing shopping cart)
+│   ├── models.py
+│   ├── views.py
+│   ├── templates/
+│   └── ...
+│
+├── orders/                # Orders app (for managing orders and checkout)
+│   ├── models.py
+│   ├── views.py
+│   ├── templates/
+│   └── ...
+└── ...
+```
+
